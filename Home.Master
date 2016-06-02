@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.Master.cs" Inherits="WebApplication1.Main" %>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/mystyle.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <form id="form2" runat="server">
+        <div >
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="index.aspx">HOME</a></li>
+                        <li><a href="AboutMe.aspx">ABOUT ME</a></li>
+                        <li><a href="projects.aspx">PROJECTS</a></li>
+                        <li><a href="service.aspx">SERVICE</a></li>
+                        <li><a href="contact.aspx">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+    <footer class="navbar navbar-default navbar-fixed-bottom" style="text-align:center">
+        <span style="display:block;margin-top:5px">@Copyright</span>
+        <span style="display:block;margin:2px"><strong>Author： YiQi Zhang 200295414 </strong></span>
+      
+    </footer>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

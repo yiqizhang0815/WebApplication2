@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="WebApplication1.Contact" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+                 <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="index.aspx">HOME</a></li>
+                        <li><a href="AboutMe.aspx">ABOUT ME</a></li>
+                        <li><a href="projects.aspx">PROJECTS</a></li>
+                        <li><a href="service.aspx">SERVICE</a></li>
+                        <li><a href="contact.aspx">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>  
+        <div class=" navbar navbar-fixed-bottom" style="text-align:center">
+            <span class="well">  I dont have footer</span>
+           
+        </div>
+       
+    </form>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+
+
