@@ -14,8 +14,8 @@
             </div>
             <div class="jumbotron col-md-6">
                 <h1>Welcome to my personal portfolio</h1>
-                <p>介绍我自己</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">可以不要</a></p>
+                <p>Hi, I'm Yiqi Zhang.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Click</a></p>
             </div>
         </div>
 
